@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 
 # Load data
-df = pd.read_csv("C:\\Users\\Sathwika\\OneDrive\\Desktop\\BTP 2\\quantum_data.csv")
+df = pd.read_csv("quantum_data.csv")
 
 # Features
 df['alpha_sq'] = df['alpha']**2
